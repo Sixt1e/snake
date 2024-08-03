@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --blue-color: #539eac;
+  --black-color: #000000;
+  --grey-color: #bcb8b1;
+  --font-color: #000000;
+  --deep_blue-color: #0200d0;
+  --red-color: #800000;
+  --green-color: #657b6e;
+}
+
+body {
+  background-color: var(--green-color);
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+  background: var(--green-color);
+  border: 5px solid var(--green-color);
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Горизонтальное центрирование */
+  align-items: center;
+}
+
+#game-canvas {
+  border: 1px solid var(--black-color);
+}
+
+#start-btn {
+  margin-top: 90px;
+  position: absolute;
+  align-items: center;
+  background: var(--grey-color);
+  cursor: pointer;
+}
+
+#restart-btn {
+  margin-top: 170px;
+  position: absolute;
+  align-items: center;
+  cursor: pointer;
+}
